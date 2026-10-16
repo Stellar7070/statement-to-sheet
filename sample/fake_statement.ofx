@@ -1,0 +1,79 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+  <SIGNONMSGSRSV1>
+    <SONRS>
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <DTSERVER>20260128000000
+      <LANGUAGE>ENG
+    </SONRS>
+  </SIGNONMSGSRSV1>
+  <BANKMSGSRSV1>
+    <STMTTRNRS>
+      <TRNUID>1
+      <STATUS>
+        <CODE>0
+        <SEVERITY>INFO
+      </STATUS>
+      <STMTRS>
+        <CURDEF>USD
+        <BANKACCTFROM>
+          <BANKID>121000248
+          <ACCTID>987654321098
+          <ACCTTYPE>CHECKING
+        </BANKACCTFROM>
+        <BANKTRANLIST>
+          <DTSTART>20260101
+          <DTEND>20260128
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20260105
+            <TRNAMT>-42.50
+            <FITID>20260105001
+            <NAME>PHARMACY STORE 12
+            <MEMO>Card purchase
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>CREDIT
+            <DTPOSTED>20260107
+            <TRNAMT>1200.00
+            <FITID>20260107001
+            <NAME>CLIENT PAYMENT
+            <MEMO>Invoice 1001 ref acct 555566667777
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20260114
+            <TRNAMT>-75.00
+            <FITID>20260114001
+            <NAME>CITY PARKING
+            <MEMO>Monthly permit
+          </STMTTRN>
+          <STMTTRN>
+            <TRNTYPE>DEBIT
+            <DTPOSTED>20260121
+            <TRNAMT>-15.99
+            <FITID>20260121001
+            <NAME>STREAMING SERVICE
+            <MEMO>Subscription
+          </STMTTRN>
+        </BANKTRANLIST>
+        <LEDGERBAL>
+          <BALAMT>4066.51
+          <DTASOF>20260128
+        </LEDGERBAL>
+      </STMTRS>
+    </STMTTRNRS>
+  </BANKMSGSRSV1>
+</OFX>
